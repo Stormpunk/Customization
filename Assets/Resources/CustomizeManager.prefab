@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3055168933163546774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3055168933163546792}
+  - component: {fileID: 3055168933163546793}
+  m_Layer: 0
+  m_Name: CustomizeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3055168933163546792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3055168933163546774}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 833.425, y: 371.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3055168933163546793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3055168933163546774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4f08b5ba112f314c9644ee7768a5c6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  mat:
+  - {fileID: 239378781582670930, guid: afec5a63f4a5fe240baea75759ddaa96, type: 3}
+  - {fileID: 2100000, guid: 0734fc0d573597642a2862ca97f8297a, type: 2}
+  - {fileID: 2100000, guid: abf21e4fde7b8114caa710f9e54e7050, type: 2}
+  - {fileID: 2100000, guid: ce94504f877f615409aff76d42934c72, type: 2}
+  - {fileID: 2100000, guid: 42950a0a6408f2741beb006d8c5eb600, type: 2}
+  - {fileID: 2100000, guid: bff1cc02b4586f34a87c0f9ac4663f49, type: 2}
+  armour:
+  - {fileID: 2800000, guid: d05dbfbc08a5fa245bf6fefbce49b433, type: 3}
+  - {fileID: 2800000, guid: 36346c1f0bdc9f845b8873eee4e22701, type: 3}
+  - {fileID: 2800000, guid: 1a06b02994bd62c41aaaa8e070d04010, type: 3}
+  - {fileID: 2800000, guid: f18e1cbe82dc93b4e83da5f54a60a46e, type: 3}
+  - {fileID: 2800000, guid: 849e2edec06d9d54c8837a0340fb3d87, type: 3}
+  - {fileID: 2800000, guid: f1e562a0bf0d32145be742e3a70b7ef3, type: 3}
+  - {fileID: 2800000, guid: 6a9a969bbcd493c4a818678b7462191f, type: 3}
+  - {fileID: 2800000, guid: 74b8661b12afdcd4db82cfd47ab87cdc, type: 3}
+  - {fileID: 2800000, guid: 835cd1ec1001e5e48afe367be0bda24d, type: 3}
+  - {fileID: 2800000, guid: 71b2136ac76962d44b4b3a6aabf3accd, type: 3}
+  - {fileID: 2800000, guid: e84e116df0c7c7a4a958ef978be68320, type: 3}
+  currentArmour: 0
+  eyes:
+  - {fileID: 2800000, guid: 0ed4ae68cbdc72943ba039d2b90d9010, type: 3}
+  - {fileID: 2800000, guid: 008e442b25c6df64da0347c6bef5fb6f, type: 3}
+  - {fileID: 2800000, guid: 59319539eb8297b4693a6ea53bc1ce67, type: 3}
+  - {fileID: 2800000, guid: 4705ea7dd41373245a53bef3a2334d1c, type: 3}
+  currentEyes: 0
+  mouth:
+  - {fileID: 2800000, guid: 749e709bffec2d84f86c74b7b38ec9bf, type: 3}
+  - {fileID: 2800000, guid: e27963518924b3844b6d4544818984d9, type: 3}
+  - {fileID: 2800000, guid: c17856c5237a0cb4c805c8eab5409c29, type: 3}
+  currentMouth: 0
+  hair:
+  - {fileID: 2800000, guid: 18f1dc09d5450d14ebd9ae21c8835cc0, type: 3}
+  - {fileID: 2800000, guid: c2c43deb81ec8474d98c257f403b2c56, type: 3}
+  - {fileID: 2800000, guid: efa1460408e2b8a419c8f4057e00886c, type: 3}
+  currentHair: 0
+  skin:
+  - {fileID: 2800000, guid: bf303e373fc590c4ba0cb513e7a8615b, type: 3}
+  - {fileID: 2800000, guid: 4f48bf0b6679d46489e10d3d081e87f2, type: 3}
+  - {fileID: 2800000, guid: f03c0914e7ef0c34689579b1ec09798d, type: 3}
+  - {fileID: 2800000, guid: 97f3f3f3b17a11c4c8adc7aacf524037, type: 3}
+  currentSkin: 0
+  clothes:
+  - {fileID: 2800000, guid: 3dfa4fe836102294896259946d6feb0c, type: 3}
+  - {fileID: 2800000, guid: 4aa48dea1e8dadd41aefcbe16a9c003c, type: 3}
+  - {fileID: 2800000, guid: 43a04b5a0ed712e4d96f236a3684682e, type: 3}
+  - {fileID: 2800000, guid: 721a10ea4bf2164438dc075c778a1841, type: 3}
+  - {fileID: 2800000, guid: 25b7d1a2ceb870c479bc675fe60e4fba, type: 3}
+  - {fileID: 2800000, guid: 6601ab0fe88652b41a76b243eab1bcf2, type: 3}
+  - {fileID: 2800000, guid: 478d3fae8ec70f249b1b9928b5b1e1b8, type: 3}
+  - {fileID: 2800000, guid: 57090046c89155943a09e7f051434472, type: 3}
+  - {fileID: 2800000, guid: 55660210d7dc4924aa7f914604f87fbd, type: 3}
+  - {fileID: 2800000, guid: 311715b1012cd084e83647d6597625dd, type: 3}
+  - {fileID: 2800000, guid: e81f2b90886cfca4f81a17201ac4678c, type: 3}
+  currentClothes: 0
+  charName: Prisoner
+  statArray:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  stats: 000000000000000000000000000000000000000000000000
+  tempStats: 000000000000000000000000000000000000000000000000
+  points: 10
+  charClass: 0
+  charRace: 0
+  selectedClass:
+  - 
+  - 
+  - 
+  selectedIndex: 0
+  raceIndex: 0
+  newBonus: 0
